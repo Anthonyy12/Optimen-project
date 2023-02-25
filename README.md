@@ -1,27 +1,17 @@
 # OptimenProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+El proyecto tiene como objetivo primario que es la elaboración de una aplicación web responsiva para la empresa Optimen cuyo motivo es que la aplicación sea más rápida al cargar, además se realizará un rediseño a la página agregando también otro componente como lo es el Login con el objetivo de que sus administradores y creadores de contenido puedan realizar cambios en las noticias y eventos que la empresa pueda tener para dar a conocer a la empresa.
 
-## Development server
+## Ejecución
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Primero se deberá descargar el proyecto y a continuación abriremos la carpeta de Optimen-project y desde el directorio ejecutar 'cmd' permitiendo abrir una terminal con la ruta del proyecto.
 
-## Code scaffolding
+* A continuación ejecutaremos el comando 'npm install' desde cmd para que nos pueda generar los node_modules para el funcionamiento del proyecto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Después se tendra que ejecutar el comando 'code .' despues de haber instalado los node_modules, permitiendo abrir nuestro entorno de desarollo que es Visual Studio Code.
 
-## Build
+* Una vez que se haya abierto VS Code, procederemos a abrir una terminal donde ejecutaremos el siguiente comando 'ng serve -o' permitiendo crear un servidor que nos desplegará la visualización de manera local desde nuestro navegador web.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Agregar un Componente
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Sí se desea agregar un nuevo componente, tendremos que ejecutar desde VS Code en la terminal lo siguiente: 'ng g c "nombre del componente"'
